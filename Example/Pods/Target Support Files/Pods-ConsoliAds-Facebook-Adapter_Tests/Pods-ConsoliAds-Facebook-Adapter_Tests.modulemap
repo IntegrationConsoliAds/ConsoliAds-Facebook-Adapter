@@ -1,0 +1,6 @@
+framework module Pods_ConsoliAds_Facebook_Adapter_Tests {
+  umbrella header "Pods-ConsoliAds-Facebook-Adapter_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

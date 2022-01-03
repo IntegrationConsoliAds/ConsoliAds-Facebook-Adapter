@@ -1,0 +1,6 @@
+framework module ConsoliAds_Facebook_Adapter {
+  umbrella header "ConsoliAds-Facebook-Adapter-umbrella.h"
+
+  export *
+  module * { export * }
+}
