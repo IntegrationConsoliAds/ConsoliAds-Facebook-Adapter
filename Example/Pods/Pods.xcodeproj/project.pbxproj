@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -29,13 +29,13 @@
 		9D4A0446A708D0B9046DC83A5B0F4DC5 /* ConsoliAds-Facebook-Adapter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFA13B947400760F1C28A6C88627363 /* ConsoliAds-Facebook-Adapter-dummy.m */; };
 		AAD644EAB7B738D987C9B95F217A4F19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
-		BA81E6782783330D006DD201 /* ConsoliAdsFacebookAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA81E6772783330D006DD201 /* ConsoliAdsFacebookAdapter.framework */; };
 		C2FDD4A2FEC8279C9D12CB35B164B6C7 /* Pods-ConsoliAds-Facebook-Adapter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2A873FC26591B376263AE1BFD9BB968 /* Pods-ConsoliAds-Facebook-Adapter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
 		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
 		D6E50B6FE2AA56ED5B12D32E1D283BD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		D8559D734D3D097CBA7734FF709FC5E4 /* ConsoliAds-Facebook-Adapter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54A13D795312064AF7E0021CA8C04F21 /* ConsoliAds-Facebook-Adapter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC2D4F8C28B35E12001A7E6A /* ConsoliAdsFacebookAdapter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2D4F8B28B35E12001A7E6A /* ConsoliAdsFacebookAdapter.xcframework */; };
 		FC8062AF6A4ECE9D979D689859DAA40C /* Pods-ConsoliAds-Facebook-Adapter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 382A6847E01E708BD58F7C0B01198B8D /* Pods-ConsoliAds-Facebook-Adapter_Tests-dummy.m */; };
 		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -114,7 +114,6 @@
 		ACC26E3D55CFD75277BC474E8A2FFB5C /* ConsoliAds_Facebook_Adapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConsoliAds_Facebook_Adapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		BA81E6772783330D006DD201 /* ConsoliAdsFacebookAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ConsoliAdsFacebookAdapter.framework; path = "ConsoliAds-Facebook-Adapter/ConsoliAdsFacebookAdapter.framework"; sourceTree = "<group>"; };
 		BEFBDB42480AF464910B4BCF0EC8167F /* ConsoliAds-Facebook-Adapter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ConsoliAds-Facebook-Adapter.debug.xcconfig"; sourceTree = "<group>"; };
 		C417A0C8E2EABC292F2D3158351E872B /* Pods-ConsoliAds-Facebook-Adapter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ConsoliAds-Facebook-Adapter_Example-frameworks.sh"; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
@@ -124,6 +123,7 @@
 		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F2FB6464AA81DB44BF24F17DF0CEDF41 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		FB108A72F9AA7187F205CD053CE9C2B9 /* Pods-ConsoliAds-Facebook-Adapter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ConsoliAds-Facebook-Adapter_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		FC2D4F8B28B35E12001A7E6A /* ConsoliAdsFacebookAdapter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ConsoliAdsFacebookAdapter.xcframework; path = "ConsoliAds-Facebook-Adapter/ConsoliAdsFacebookAdapter.xcframework"; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,8 +148,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC2D4F8C28B35E12001A7E6A /* ConsoliAdsFacebookAdapter.xcframework in Frameworks */,
 				2AF217FAA5A4E1FE4275A8951E1FC9EA /* Foundation.framework in Frameworks */,
-				BA81E6782783330D006DD201 /* ConsoliAdsFacebookAdapter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,7 +244,7 @@
 		50402455918A46950AA91E0DE3873364 /* ConsoliAds-Facebook-Adapter */ = {
 			isa = PBXGroup;
 			children = (
-				BA81E6772783330D006DD201 /* ConsoliAdsFacebookAdapter.framework */,
+				FC2D4F8B28B35E12001A7E6A /* ConsoliAdsFacebookAdapter.xcframework */,
 				A60273A7DD4B74470BF8463C8E08A358 /* Pod */,
 				9CA7C25050ECDFB68F34FBDB263FF660 /* Support Files */,
 			);
@@ -620,7 +620,11 @@
 				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
 				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
 				PRODUCT_NAME = FBSnapshotTestCase;
@@ -693,6 +697,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -717,7 +722,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ConsoliAds-Facebook-Adapter_Tests/Pods-ConsoliAds-Facebook-Adapter_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ConsoliAds-Facebook-Adapter_Tests/Pods-ConsoliAds-Facebook-Adapter_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -750,7 +759,11 @@
 				INFOPLIST_FILE = "Target Support Files/ConsoliAds-Facebook-Adapter/ConsoliAds-Facebook-Adapter-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/ConsoliAds-Facebook-Adapter/ConsoliAds-Facebook-Adapter.modulemap";
 				PRODUCT_MODULE_NAME = ConsoliAds_Facebook_Adapter;
 				PRODUCT_NAME = ConsoliAds_Facebook_Adapter;
@@ -780,7 +793,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ConsoliAds-Facebook-Adapter_Example/Pods-ConsoliAds-Facebook-Adapter_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ConsoliAds-Facebook-Adapter_Example/Pods-ConsoliAds-Facebook-Adapter_Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -812,7 +829,11 @@
 				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
 				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
 				PRODUCT_NAME = FBSnapshotTestCase;
@@ -842,7 +863,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ConsoliAds-Facebook-Adapter_Tests/Pods-ConsoliAds-Facebook-Adapter_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ConsoliAds-Facebook-Adapter_Tests/Pods-ConsoliAds-Facebook-Adapter_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -913,8 +938,10 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -936,7 +963,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ConsoliAds-Facebook-Adapter_Example/Pods-ConsoliAds-Facebook-Adapter_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ConsoliAds-Facebook-Adapter_Example/Pods-ConsoliAds-Facebook-Adapter_Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -970,7 +1001,11 @@
 				INFOPLIST_FILE = "Target Support Files/ConsoliAds-Facebook-Adapter/ConsoliAds-Facebook-Adapter-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/ConsoliAds-Facebook-Adapter/ConsoliAds-Facebook-Adapter.modulemap";
 				PRODUCT_MODULE_NAME = ConsoliAds_Facebook_Adapter;
 				PRODUCT_NAME = ConsoliAds_Facebook_Adapter;
