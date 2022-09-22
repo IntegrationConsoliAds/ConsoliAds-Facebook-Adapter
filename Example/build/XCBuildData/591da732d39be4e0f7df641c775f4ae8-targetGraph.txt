@@ -1,0 +1,8 @@
+Target dependency graph (4 targets)
+ConsoliAds-Facebook-Adapter in Pods, no dependencies
+FBSnapshotTestCase in Pods, no dependencies
+Pods-ConsoliAds-Facebook-Adapter_Example in Pods, depends on:
+ConsoliAds-Facebook-Adapter in Pods (explicit)
+Pods-ConsoliAds-Facebook-Adapter_Tests in Pods, depends on:
+FBSnapshotTestCase in Pods (explicit)
+Pods-ConsoliAds-Facebook-Adapter_Example in Pods (explicit)

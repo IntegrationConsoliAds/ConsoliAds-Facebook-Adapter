@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ConsoliAds-Facebook-Adapter'
-  s.version          = '6.9.0-1.2'
+  s.version          = '6.11.2-v14.1.0'
   s.summary          = 'This pod is used to get facebook adapter for facebookAd serving after integrating Consoliads-Mediation pod.'
 
 # This description is used to generate tags and improve search results.
